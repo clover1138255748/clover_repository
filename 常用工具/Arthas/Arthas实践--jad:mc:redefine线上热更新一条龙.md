@@ -35,7 +35,7 @@ Arthas是阿里巴巴开源的Java应用诊断利器，深受开发者喜爱。
 
 - [Arthas进阶教程](https://alibaba.github.io/arthas/arthas-tutorials?language=cn&id=arthas-advanced)
 
-![arthas-online-hotswap](http://qa0a9jn2t.bkt.clouddn.com/arthas-online-hotswap.png)
+![arthas-online-hotswap](https://gitee.com/cdx_dayshow/picBed/raw/master/arthas-online-hotswap-20200512164247689.png)
 
 在例子里，访问 `curl http://localhost/user/0`，会返回500错误：
 

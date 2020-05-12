@@ -47,7 +47,7 @@ Redis 在 Java Web 主要有两个应用场景：
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-59e6bc0e759f911af90ef2ce04580fc8_1440w-20200511191602936.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-59e6bc0e759f911af90ef2ce04580fc8_1440w-20200511191602936.jpg)
 
 
 
@@ -62,7 +62,7 @@ Redis 在 Java Web 主要有两个应用场景：
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-2a22f9f9a052e58f844cd93653f06daf_1440w-20200511191608191.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-2a22f9f9a052e58f844cd93653f06daf_1440w-20200511191608191.jpg)
 
 
 
@@ -78,7 +78,7 @@ Redis 在 Java Web 主要有两个应用场景：
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-98f72d397b021a7dd56b9be8af9d77a6_1440w-20200511191612436.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-98f72d397b021a7dd56b9be8af9d77a6_1440w-20200511191612436.jpg)
 
 
 
@@ -93,7 +93,7 @@ Redis 在 Java Web 主要有两个应用场景：
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-d01ff3fcd82b00ccdc08f972ca73f9fd_1440w-20200511191617948.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-d01ff3fcd82b00ccdc08f972ca73f9fd_1440w-20200511191617948.jpg)
 
 
 
@@ -101,7 +101,7 @@ Redis 在 Java Web 主要有两个应用场景：
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-8854215feaba63a799d6339e8892d498_1440w-20200511191626057.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-8854215feaba63a799d6339e8892d498_1440w-20200511191626057.jpg)
 
 
 
@@ -115,7 +115,7 @@ redis-server redis.windows.conf
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-d138e37467f3d739454c40b5b62ed8f5_1440w-20200511191630134.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-d138e37467f3d739454c40b5b62ed8f5_1440w-20200511191630134.jpg)
 
 
 
@@ -125,7 +125,7 @@ redis-server redis.windows.conf
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-b2e194be9ccd5f46da7ad45cdc7258f7_1440w-20200511191634746-20200511191751330.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-b2e194be9ccd5f46da7ad45cdc7258f7_1440w-20200511191634746-20200511191751330.jpg)
 
 
 
@@ -139,7 +139,7 @@ redis-server redis.windows.conf
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-7da9d34041471e8a6b338d02dfc15859_1440w-20200511191748321.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-7da9d34041471e8a6b338d02dfc15859_1440w-20200511191748321.jpg)
 
 
 
@@ -176,7 +176,7 @@ redis每秒操作：10734次
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-02d556ec4fe8766f36170cab7a9fdba0_1440w-20200511191744800.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-02d556ec4fe8766f36170cab7a9fdba0_1440w-20200511191744800.jpg)
 
 
 
@@ -184,7 +184,7 @@ redis每秒操作：10734次
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-80a42e5b14ca15a3a625638f1ccb5ab1_1440w-20200511191741571.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-80a42e5b14ca15a3a625638f1ccb5ab1_1440w-20200511191741571.jpg)
 
 
 
@@ -220,7 +220,7 @@ Redis 只能支持六种数据类型（string/hash/list/set/zset/hyperloglog）�
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-5639926d05d32980a2e0c3d7a38c1cfb_1440w-20200511191737421.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-5639926d05d32980a2e0c3d7a38c1cfb_1440w-20200511191737421.jpg)
 
 
 
@@ -271,7 +271,7 @@ Redis 只能支持六种数据类型（string/hash/list/set/zset/hyperloglog）�
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-7c367843671ba1684a1e06bfd5eb746a_1440w-20200511191734127.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-7c367843671ba1684a1e06bfd5eb746a_1440w-20200511191734127.jpg)
 
 
 
@@ -346,7 +346,7 @@ public void test() {
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-3d3c0c4272b2bce302371c768b841ff8_1440w-20200511191729924.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-3d3c0c4272b2bce302371c768b841ff8_1440w-20200511191729924.jpg)
 
 
 
@@ -415,7 +415,7 @@ public class ApplicationTests {
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-533247dc2ffc9efb184c9d92fcba6e38_1440w-20200511191725844.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-533247dc2ffc9efb184c9d92fcba6e38_1440w-20200511191725844.jpg)
 
 
 
@@ -450,7 +450,7 @@ public class ApplicationTests {
 
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/v2-6550d649a402a673033459d3c882cb6a_1440w-20200511191719558.jpg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/img/v2-6550d649a402a673033459d3c882cb6a_1440w-20200511191719558.jpg)
 
 
 

@@ -8,7 +8,7 @@
 
 梳理和明确一个概念：电商系统，拆分为了多个子系统，一次下订单的请求需要多个子系统协作完成，每个子系统都完成一部分的功能，多个子系统分别完成自己负责的事情，最终这个请求就处理完毕
 
-![SpringCloud-core-architecture](http://qa0a9jn2t.bkt.clouddn.com/img/SpringCloud-core-architecture.png)
+![SpringCloud-core-architecture](https://gitee.com/cdx_dayshow/picBed/raw/master/img/SpringCloud-core-architecture.png)
 
 Eureka：服务注册中心
 Feign：服务调用

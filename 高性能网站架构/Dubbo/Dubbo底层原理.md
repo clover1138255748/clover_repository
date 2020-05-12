@@ -1,4 +1,4 @@
-![dubbo-framework-principle](http://qa0a9jn2t.bkt.clouddn.com/img/dubbo-framework-principle.png)
+![dubbo-framework-principle](https://gitee.com/cdx_dayshow/picBed/raw/master/img/dubbo-framework-principle.png)
 
 提供接口
 

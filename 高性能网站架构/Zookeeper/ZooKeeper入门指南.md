@@ -116,9 +116,9 @@ zkServer.sh status
 
 连接成功后可以使用如下命令：
 
-![](http://qa0a9jn2t.bkt.clouddn.com/webp-20200511195143450-20200511195219939)
 
-![image-20200511195250031](http://qa0a9jn2t.bkt.clouddn.com/image-20200511195250031.png)
+
+![image-20200511195250031](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511195250031.png)
 
 ### ZooKeeper集群配置
 
@@ -135,7 +135,7 @@ touch zoo1.cfg zoo2.cfg zoo3.cfg
 
 
 
-![image-20200511195320381](http://qa0a9jn2t.bkt.clouddn.com/image-20200511195320381.png)
+![image-20200511195320381](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511195320381.png)
 
 **注意** 端口不要冲突，dataDir不要相同
 
@@ -175,7 +175,7 @@ zkServer.sh start /usr/local/zookeeper/conf/zoo3.cfg
 zkCli.sh -server 192.168.8.250:2181,192.168.8.250:2182,192.168.8.250:2183
 ```
 
-![image-20200511195406435](http://qa0a9jn2t.bkt.clouddn.com/image-20200511195406435.png)
+![image-20200511195406435](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511195406435.png)
 
 集群连接效果
 

@@ -43,7 +43,7 @@ end复制代码
 
   这是避免了一种情况：假设A获取了锁，过期时间30s，此时35s之后，锁已经自动释放了，A去释放锁，但是此时可能B获取了锁。A客户端就不能删除B的锁了。
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/16bdef11fa0b11b0.jpeg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/16bdef11fa0b11b0.jpeg)
 
 
 
@@ -77,7 +77,7 @@ redis有3种部署方式：
 但是这样的这种算法还是颇具争议的，可能还会存在不少的问题，无法保证加锁的过程一定正确。
 
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/16bdef134fefb835.jpeg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/16bdef134fefb835.jpeg)
 
 ### 另一种方式：Redisson
 
@@ -135,7 +135,7 @@ lock.unlock();复制代码
 
   (如果机器宕机了，看门狗也就没了。此时就不会延长key的过期时间，到了30s之后就会自动过期了，其他线程可以获取到锁)
 
-![img](http://qa0a9jn2t.bkt.clouddn.com/16bdef157e04045c.jpeg)
+![img](https://gitee.com/cdx_dayshow/picBed/raw/master/16bdef157e04045c.jpeg)
 
 这里稍微贴出来其实现代码：
 

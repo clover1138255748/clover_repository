@@ -266,5 +266,5 @@ ts=2018-11-28 19:22:35; [cost=29.969732ms] result=@ArrayList[
 
 
 
-![一图掌握Artha—常用命令汇总](http://qa0a9jn2t.bkt.clouddn.com/一图掌握Artha—常用命令汇总.png)
+![一图掌握Artha—常用命令汇总](https://raw.githubusercontent.com/clover1138255748/picBed/master/img/一图掌握Artha—常用命令汇总.png)
 

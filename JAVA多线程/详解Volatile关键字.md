@@ -22,7 +22,7 @@
 
 先看看一段代码
 
-![image-20200511112827504](http://qa0a9jn2t.bkt.clouddn.com/img/image-20200511112827504.png)
+![image-20200511112827504](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511112827504.png)
 
 你会发现，永远都不会输出**有点东西**这一段代码，按道理线程改了flag变量，主线程也能访问到的呀？
 
@@ -38,7 +38,7 @@
 
 在多处理器系统中，每个处理器都有自己的高速缓存，而它们又共享同一主内存（MainMemory）。
 
-![image-20200511113145780](http://qa0a9jn2t.bkt.clouddn.com/img/image-20200511113145780.png)
+![image-20200511113145780](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511113145780.png)
 
 ## JMM
 
@@ -56,7 +56,7 @@
 
 ### **本地内存和主内存的关系：**
 
-![image-20200511113959371](http://qa0a9jn2t.bkt.clouddn.com/image-20200511113959371.png)
+![image-20200511113959371](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511113959371.png)
 
 正是因为这样的机制，才导致了可见性问题的存在，那我们就讨论下可见性的解决方案。
 
@@ -66,7 +66,7 @@
 
 ### **加锁**
 
-![image-20200511114119534](http://qa0a9jn2t.bkt.clouddn.com/image-20200511114119534.png)
+![image-20200511114119534](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511114119534.png)
 
 
 
@@ -78,11 +78,11 @@
 
 ### **Volatile修饰共享变量**
 
-![image-20200511114155936](http://qa0a9jn2t.bkt.clouddn.com/image-20200511114155936.png)
+![image-20200511114155936](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511114155936.png)
 
 开头的代码优化完之后应该是这样的：
 
-![image-20200511114231960](http://qa0a9jn2t.bkt.clouddn.com/image-20200511114231960.png)
+![image-20200511114231960](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511114231960.png)
 
 ### **Volatile做了啥？**
 
@@ -136,7 +136,7 @@ volatile域规则：对一个volatile域的写操作，happens-before于任意�
 
 这里看下一个简单双重检查单例模式就引用了volatile关键字
 
-![image-20200511114640862](http://qa0a9jn2t.bkt.clouddn.com/image-20200511114640862.png)
+![image-20200511114640862](https://gitee.com/cdx_dayshow/picBed/raw/master/img/image-20200511114640862.png)
 
 ### **大家可能好奇为啥要双重检查？如果不用Volatile会怎么样？**
 
