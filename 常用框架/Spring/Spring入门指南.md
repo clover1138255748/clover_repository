@@ -1,31 +1,71 @@
-- [1. 什么是 Spring 框架?](#什么是 Spring 框架?)
-- [2. 列举一些重要的Spring模块？](#列举一些重要的Spring模块？)
-- [3. @RestController vs @Controller](#3--restcontroller-vs--controller)
-- [4. Spring IOC & AOP](#spring-ioc---aop)
-  * [4.1 谈谈自己对于 Spring IoC 和 AOP 的理解](#谈谈自己对于 Spring IoC 和 AOP 的理解)
+- [什么是 Spring 框架?](#什么是-spring-框架)
+- [列举一些重要的Spring模块？](#列举一些重要的spring模块)
+- [@RestController vs @Controller](#restcontroller-vs-controller)
+- [Spring IOC & AOP](#spring-ioc--aop)
+  * [谈谈自己对于 Spring IoC 和 AOP 的理解](#谈谈自己对于-spring-ioc-和-aop-的理解)
     + [IoC](#ioc)
     + [AOP](#aop)
-  * [4.2 Spring AOP 和 AspectJ AOP 有什么区别？](#Spring AOP 和 AspectJ AOP 有什么区别？)
-- [5. Spring bean](#spring-bean)
-  * [5.1 Spring 中的 bean 的作用域有哪些?](#Spring 中的 bean 的作用域有哪些?)
-  * [5.2 Spring 中的单例 bean 的线程安全问题了解吗？](#Spring 中的单例 bean 的线程安全问题了解吗？)
-  * [5.3 @Component 和 @Bean 的区别是什么？](#@Component 和 @Bean 的区别是什么？)
-  * [5.4 将一个类声明为Spring的 bean 的注解有哪些?](#将一个类声明为Spring的 bean 的注解有哪些?)
-  * [5.5 Spring 中的 bean 生命周期?](#Spring 中的 bean 生命周期?)
-- [6. Spring MVC](#spring-mvc)
-  * [6.1 说说自己对于 Spring MVC 了解?](#说说自己对于 spring-mvc 了解?)
-  * [6.2 SpringMVC 工作原理了解吗?](#springmvc 工作原理了解吗?)
-- [7. Spring 框架中用到了哪些设计模式？](#spring 框架中用到了哪些设计模式？)
-- [8. Spring 事务](#spring 事务)
-  * [8.1 Spring 管理事务的方式有几种？](#spring 管理事务的方式有几种？)
-  * [8.2 Spring 事务中的隔离级别有哪几种?](#spring 事务中的隔离级别有哪几种?)
-  * [8.3 Spring 事务中哪几种事务传播行为?](#spring 事务中哪几种事务传播行为?)
-  * [8.4 @Transactional(rollbackFor = Exception.class)注解了解吗？](#transactional-rollbackfor---exceptionclass-------)
-- [9. JPA](#jpa)
-  * [9.1 如何使用JPA在数据库中非持久化一个字段？](#如何使用jpa在数据库中非持久化一个字段？)
-- [参考](#参考)
+  * [Spring AOP 和 AspectJ AOP 有什么区别？](#spring-aop-和-aspectj-aop-有什么区别)
+- [Spring bean](#spring-bean)
+  * [Spring 中的 bean 的作用域有哪些?](#spring-中的-bean-的作用域有哪些)
+  * [Spring 中的单例 bean 的线程安全问题了解吗？](#spring------bean------------)
+  * [@Component 和 @Bean 的区别是什么？](#component-和-bean-的区别是什么)
+  * [将一个类声明为Spring的 bean 的注解有哪些?](#将一个类声明为spring的-bean-的注解有哪些)
+  * [Spring 中的 bean 生命周期?](#spring-中的-bean-生命周期)
+- [Spring MVC](#spring-mvc)
+  * [说说自己对于 Spring MVC 了解?](#说说自己对于-spring-mvc-了解)
+  * [SpringMVC 工作原理了解吗?](#springmvc-工作原理了解吗)
+- [Spring 框架中用到了哪些设计模式？](#spring-框架中用到了哪些设计模式)
+- [Spring 事务](#spring-事务)
+  * [Spring 管理事务的方式有几种？](#spring-管理事务的方式有几种)
+  * [Spring 事务中的隔离级别有哪几种?](#spring-事务中的隔离级别有哪几种)
+  * [Spring 事务中哪几种事务传播行为?](#spring-事务中哪几种事务传播行为)
+  * [@Transactional(rollbackFor = Exception.class)](#-transactional-rollbackfor---exceptionclass)
+- [JPA](#jpa)
+  * [如何使用JPA在数据库中非持久化一个字段？](#如何使用jpa在数据库中非持久化一个字段)
+
+
+
+>    
+>
+> >   
+
+* 
+
+
+
+
+      * [什么是 Spring 框架?](#什么是-spring-框架)
+      * [列举一些重要的Spring模块？](#列举一些重要的spring模块)
+      * [@RestController vs @Controller](#restcontroller-vs-controller)
+      * [Spring IOC &amp; AOP](#spring-ioc--aop)
+     * [谈谈自己对于 Spring IoC 和 AOP 的理解](#谈谈自己对于-spring-ioc-和-aop-的理解)
+            * [IoC](#ioc)
+            * [AOP](#aop)
+         * [Spring AOP 和 AspectJ AOP 有什么区别？](#spring-aop-和-aspectj-aop-有什么区别)
+      * [Spring bean](#spring-bean)
+         * [Spring 中的 bean 的作用域有哪些?](#spring-中的-bean-的作用域有哪些)
+         * [Spring 中的单例 bean 的线程安全问题了解吗？](#spring-中的单例-bean-的线程安全问题了解吗)
+         * [@Component 和 @Bean 的区别是什么？](#component-和-bean-的区别是什么)
+         * [将一个类声明为Spring的 bean 的注解有哪些?](#将一个类声明为spring的-bean-的注解有哪些)
+         * [Spring 中的 bean 生命周期?](#spring-中的-bean-生命周期)
+      * [Spring MVC](#spring-mvc)
+         * [说说自己对于 Spring MVC 了解?](#说说自己对于-spring-mvc-了解)
+         * [SpringMVC 工作原理了解吗?](#springmvc-工作原理了解吗)
+      * [Spring 框架中用到了哪些设计模式？](#spring-框架中用到了哪些设计模式)
+      * [Spring 事务](#spring-事务)
+         * [Spring 管理事务的方式有几种？](#spring-管理事务的方式有几种)
+         * [Spring 事务中的隔离级别有哪几种?](#spring-事务中的隔离级别有哪几种)
+         * [Spring 事务中哪几种事务传播行为?](#spring-事务中哪几种事务传播行为)
+         * [@Transactional(rollbackFor = Exception.class)注解了解吗？](#transactionalrollbackfor--exceptionclass注解了解吗)
+      * [JPA](#jpa)
+         * [如何使用JPA在数据库中非持久化一个字段？](#如何使用jpa在数据库中非持久化一个字段)
+      * [参考](#参考)
+
 
 这篇文章主要是想通过一些问题，加深大家对于 Spring 的理解，所以不会涉及太多的代码！这篇文章整理了挺长时间，下面的很多问题我自己在使用 Spring 的过程中也并没有注意，自己也是临时查阅了很多资料和书籍补上的。网上也有一些很多关于 Spring 常见问题/面试题整理的文章，我感觉大部分都是互相 copy，而且很多问题也不是很好，有些回答也存在问题。所以，自己花了一周的业余时间整理了一下，希望对大家有帮助。
+
+
 
 ## 什么是 Spring 框架?
 
