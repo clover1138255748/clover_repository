@@ -67,43 +67,43 @@
 
 ​			[Redis入门指南](数据库/Redis/Redis入门指南.md)
 
-​			[Redis的线程模型(为啥单线程效率这么高)](数据库/RedisRedis的线程模型(为啥单线程效率这么高).md)
+​			[Redis的线程模型(为啥单线程效率这么高)](数据库/Redis/Redis的线程模型(为啥单线程效率这么高).md)
 
-​			[Redis的主从复制](数据库/RedisRedis的主从复制.md)
+​			[Redis的主从复制](数据库/Redis/RedisRedis的主从复制.md)
 
-​			[Redis的持久化原理](数据库/RedisRedis的持久化原理.md)
+​			[Redis的持久化原理](数据库/Redis/RedisRedis的持久化原理.md)
 
-​			[Redis是怎么保证高并发高可用的](数据库/RedisRedis是怎么保证高并发高可用的.md)
+​			[Redis是怎么保证高并发高可用的](数据库/Redis/Redis是怎么保证高并发高可用的.md)
 
-​			[Redis的过期策略以及内存淘汰机制](数据库/RedisRedis的过期策略以及内存淘汰机制.md)
+​			[Redis的过期策略以及内存淘汰机制](数据库/Redis/RedisRedis的过期策略以及内存淘汰机制.md)
 
 ### 	Elasticsearch
 
-## 五   JAVA高性能网络架构
+## 五   JAVA高性能网站架构
 
-[分布式锁的使用场景](高性能网络架构/分布式锁的使用场景.md)
+[分布式锁的使用场景](高性能网站架构/分布式锁的使用场景.md)
 
-[基于Redis实现分布式锁](高性能网络架构/基于Redis实现分布式锁.md)
+[基于Redis实现分布式锁](高性能网站架构/基于Redis实现分布式锁.md)
 
-[基于zookeeper实现分布式锁的几种方式](高性能网络架构/基于zookeeper实现分布式锁的几种方式.md)
+[基于zookeeper实现分布式锁的几种方式](高性能网站架构/基于zookeeper实现分布式锁的几种方式.md)
 
 ### 	SpringCloud
 
-​			[SpringCloud底层原理](高性能网络架构/SpringCloud/SpringCloud底层原理.md)
+​			[SpringCloud底层原理](高性能网站架构/SpringCloud/SpringCloud底层原理.md)
 
 ### 	Dobbo
 
-​			[Dubbo底层原理](高性能网络架构/Dobbo/Dubbo底层原理.md)
+​			[Dubbo底层原理](高性能网站架构/Dobbo/Dubbo底层原理.md)
 
 ### 	MQ
 
 ### 	Seata
 
-​			[Seata入门指南](高性能网络架构/Seata/Seata入门指南.md)
+​			[Seata入门指南](高性能网站架构/Seata/Seata入门指南.md)
 
 ### 	Zookeeper
 
-​			[ZooKeeper入门指南](高性能网络架构/Zookeeper/ZooKeeper入门指南.md)
+​			[ZooKeeper入门指南](高性能网站架构/Zookeeper/ZooKeeper入门指南.md)
 
 ## 六   JAVA常用工具
 
@@ -203,7 +203,7 @@
 
 ### 	JDK
 
-​			[JDK1.8学习笔记](其他/JDKJDK1.8学习笔记.md)
+​			[JDK1.8学习笔记](其他/JDK/JDK1.8学习笔记.md)
 
 ​			[Optional的实战用法](其他/JDK/Optional的实战用法.md)
 
