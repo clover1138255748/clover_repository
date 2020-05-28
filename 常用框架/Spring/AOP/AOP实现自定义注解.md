@@ -115,6 +115,7 @@ public class EagleEyeAspect {
 这里启动报错了
 
 ```
+
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'feignConfigBeanPostProcessor' defined in file [/Users/caoliang/Project/WL/wl-common/common-core/target/classes/com/runlion/wl/common/space/FeignConfigBeanPostProcessor.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut eagleEye
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:477)
 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
