@@ -65,6 +65,10 @@
 
 ### 	MySQL
 
+​			[MySQL常用函数](数据库/MySQL/MySQL常用函数.md)
+
+​			[MySQL常用语法](数据库/MySQL/MySQL常用语法.md)			
+
 ### 	Redis  
 
 ​			[Redis入门指南](数据库/Redis/Redis入门指南.md)
