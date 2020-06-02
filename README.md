@@ -9,6 +9,10 @@
 
 [JAVA基础知识汇总](JAVA基础知识/Java基础知识.md)
 
+[枚举的使用](JAVA基础知识/枚举的使用.md)
+
+[序列化反序列化原理和知识点](JAVA基础知识/序列化反序列化原理和知识点.md)
+
 ### 	List
 
 ​		[ArrayList源码解析](JAVA基础知识/List/ArrayList源码解析.md)		
@@ -33,7 +37,9 @@
 
 [详解Volatile关键字](JAVA多线程/详解Volatile关键字.md)
 
-[乐观锁与悲观锁](JAVA多线程/乐观锁与悲观锁)
+[乐观锁与悲观锁](JAVA多线程/乐观锁与悲观锁.md)
+
+[synchronized的实现原理](JAVA多线程/synchronized的实现原理.md)
 
 ## 三   JAVA常用框架
 
@@ -52,6 +58,8 @@
 ​		[IOC和AOP的基础理念](常用框架/Spring/IOC和AOP的基础理念.md)
 
 #### 		IOC
+
+​		[IOC理解](常用框架/Spring/IOC/IOC理解.md)
 
 #### 		AOP
 
@@ -208,6 +216,10 @@
 ### 	疑难BUG
 
 ## 九   其他
+
+## 特别篇 数据结构
+
+
 
 ### 	JDK
 
