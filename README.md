@@ -105,6 +105,8 @@
 
 ​			[SpringCloud底层原理](高性能网站架构/SpringCloud/SpringCloud底层原理.md)
 
+​			[SpringCloud-Hystrix-Feign处理降级](高性能网站架构/SpringCloud/SpringCloud-Hystrix-Feign处理降级.md)
+
 ### 	Dobbo
 
 ​			[Dubbo底层原理](高性能网站架构/Dobbo/Dubbo底层原理.md)
@@ -114,6 +116,8 @@
 ### 	Seata
 
 ​			[Seata入门指南](高性能网站架构/Seata/Seata入门指南.md)
+
+​			[Seata踩坑指南](高性能网站架构/Seata/Seata踩坑指南.md)
 
 ### 	Zookeeper
 
@@ -138,6 +142,8 @@
 ### 	Maven
 
 ### 	IDEA
+
+[Jmeter入门指南(性能压测工具)](常用工具/Jmeter入门指南.md)
 
 ## 七   JAVA设计模式
 
