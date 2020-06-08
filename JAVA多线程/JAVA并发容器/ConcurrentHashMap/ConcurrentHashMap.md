@@ -54,11 +54,11 @@ ConcurrentHashMap的数据结构奠定了其高并发编程中的作用。其基
 
 先贴两张盗的图
 
-[![201910301005\_1.png](https://gitee.com/cdx_dayshow/picBed/raw/master/img/201910301005_2.png)](https://gitee.com/chenssy/blog-home/raw/master/image/series-images/javaCore/javaConcurrent/201910301005_1.png)
+[![201910301005\_1.png](https://gitee.com/cdx_dayshow/picBed/raw/master/img/201910301005_2.png)
 
 1.7-1.png
 
-[![201910301005\_2.png](https://gitee.com/cdx_dayshow/picBed/raw/master/img/201910301005_2.png)](https://gitee.com/chenssy/blog-home/raw/master/image/series-images/javaCore/javaConcurrent/201910301005_2.png)
+[![201910301005\_2.png](https://gitee.com/cdx_dayshow/picBed/raw/master/img/201910301005_2.png)
 
 1.7-2.png
 
@@ -489,7 +489,7 @@ replaceNode方法
 
 再盗取一张图：
 
-[![201910301009\_1.png](https://gitee.com/cdx_dayshow/picBed/raw/master/img/201910301009_1.png)](https://gitee.com/chenssy/blog-home/raw/master/image/series-images/javaCore/javaConcurrent/201910301009_1.png)
+[![201910301009\_1.png](https://gitee.com/cdx_dayshow/picBed/raw/master/img/201910301009_1.png)
 
 remove.png
 
