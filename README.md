@@ -19,8 +19,6 @@
 
 ​		[CopyOnWriteArrayList源码解析](AVA基础知识/List/CopyOnWriteArrayList源码解析.md)
 
-​		[CopyOnWriteArraySet源码解析](JAVA基础知识/List/CopyOnWriteArraySet源码解析.md)
-
 ​		[LinkedList源码解析](JAVA基础知识/List/LinkedList源码解析.md)
 
 ### 	Map
@@ -28,6 +26,8 @@
 ​		[HashMap简介](JAVA基础知识/Map/HashMap.md)
 
 ​		[HashMap源码解析](JAVA基础知识/Map/HashMap源码解析.md)
+
+​		[手写LRU缓存](JAVA基础知识/Map/手写LRU缓存.md)
 
 
 
@@ -149,7 +149,9 @@
 
 ### 	Maven
 
-### 	IDEA
+​			[Maven基础使用知识点](常用工具/Maven/Maven基础使用知识点.md)
+
+### 	[IDEA](常用工具/IDEA/README.md)
 
 [Jmeter入门指南(性能压测工具)](常用工具/Jmeter入门指南.md)
 
@@ -230,6 +232,8 @@
 ### 	疑难BUG
 
 ## 九   其他
+
+[史上最全的Java命名规范参考](其他/史上最全的Java命名规范参考.md)
 
 ## 特别篇 数据结构
 
