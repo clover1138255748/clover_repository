@@ -29,8 +29,6 @@
 
 ​		[手写LRU缓存](JAVA基础知识/Map/手写LRU缓存.md)
 
-
-
 ## 二   JAVA多线程知识
 
 [AQS的原理以及应用](JAVA多线程/AQS的原理以及应用.md)
@@ -53,19 +51,19 @@
 
 ### 	Spring
 
-​		[Spring入门指南](常用框架/Spring/Spring入门指南.md)
+​			[Spring入门指南](常用框架/Spring/Spring入门指南.md)
 
-​		[IOC和AOP的基础理念](常用框架/Spring/IOC和AOP的基础理念.md)
+​				[IOC和AOP的基础理念](常用框架/Spring/IOC和AOP的基础理念.md)
 
 #### 		IOC
 
-​		[IOC理解](常用框架/Spring/IOC/IOC理解.md)
+​			IOC理解](常用框架/Spring/IOC/IOC理解.md)
 
 #### 		AOP
 
 ​				[AOP实现自定义注解(代码版)](常用框架/Spring/AOP/AOP实现自定义注解.md)
 
-​				[AOP实现请求接口插入日志](常用框架/Spring/AOP/AOP实现请求接口插入日志.md)
+​			[AOP实现请求接口插入日志](常用框架/Spring/AOP/AOP实现请求接口插入日志.md)
 
 ### 	MyBatis
 
@@ -234,6 +232,8 @@
 ## 九   其他
 
 [史上最全的Java命名规范参考](其他/史上最全的Java命名规范参考.md)
+
+[Java 处理 Exception 的 9 个最佳实践](其他/Java 处理 Exception 的 9 个最佳实践.md)
 
 ## 特别篇 数据结构
 
