@@ -75,9 +75,13 @@
 
 ​			[深入浅出数据库索引原理](数据库/MySQL/深入浅出数据库索引原理.md)
 
+​			[一条SQL语句在MySQL中如何执行的](数据库/MySQL/一条SQL语句在MySQL中如何执行的.md)
+
 ​			[MySQL常用函数](数据库/MySQL/MySQL常用函数.md)
 
 ​			[MySQL常用语法](数据库/MySQL/MySQL常用语法.md)			
+
+​			[MySQL高性能优化规范建议](数据库/MySQL/MySQL高性能优化规范建议.md)
 
 ​			[MySQL之复杂报表(车辆活跃表)](数据库/MySQL/MySQL之复杂报表(车辆活跃表).md)
 
