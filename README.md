@@ -47,17 +47,19 @@
 
 ​		[SpringBoot是如何进行自动装配的](常用框架/SpringBoot/SpringBoot是如何进行自动装配的.md)
 
+​		[springboot部分关键应用配置项说明](常用框架/SpringBoot/springboot部分关键应用配置项说明.md)
+
 ### 	SpringMVC
 
 ### 	Spring
 
 ​			[Spring入门指南](常用框架/Spring/Spring入门指南.md)
 
-​				[IOC和AOP的基础理念](常用框架/Spring/IOC和AOP的基础理念.md)
+​			[IOC和AOP的基础理念](常用框架/Spring/IOC和AOP的基础理念.md)
 
 #### 		IOC
 
-​			IOC理解](常用框架/Spring/IOC/IOC理解.md)
+​			[IOC理解](常用框架/Spring/IOC/IOC理解.md)
 
 #### 		AOP
 
@@ -86,6 +88,8 @@
 ​			[MySQL之复杂报表(车辆活跃表)](数据库/MySQL/MySQL之复杂报表(车辆活跃表).md)
 
 ### 	Redis  
+
+​			[彻底理解 IO多路复用](数据库/Redis/彻底理解 IO多路复用.md)
 
 ​			[Redis入门指南](数据库/Redis/Redis入门指南.md)
 
@@ -123,6 +127,12 @@
 
 ### 	MQ
 
+​			[为什么要引入消息中间件](高性能网站架构/MQ/为什么要引入消息中间件.md)
+
+​			[如何保证消息队列的高可用](高性能网站架构/MQ/如何保证消息队列的高可用.md)
+
+​			[如何处理消息丢失的问题](高性能网站架构/MQ/如何处理消息丢失的问题.md)
+
 ### 	Seata
 
 ​			[Seata入门指南](高性能网站架构/Seata/Seata入门指南.md)
@@ -132,6 +142,10 @@
 ### 	Zookeeper
 
 ​			[ZooKeeper入门指南](高性能网站架构/Zookeeper/ZooKeeper入门指南.md)
+
+### Elasticsearch
+
+​			[ES的分布式架构原理](高性能网站架构/Elasticsearch/ES的分布式架构原理.md)
 
 ## 六   JAVA常用工具
 
@@ -225,6 +239,8 @@
 
 ### 	面试
 
+​			[多线程面试答疑](程序人生/面试/面经/多线程面试答疑.md)
+
 ### 	线上事故
 
 ### 	项目搭建
@@ -248,6 +264,8 @@
 ​			[JDK1.8学习笔记](其他/JDK/JDK1.8学习笔记.md)
 
 ​			[Optional的实战用法](其他/JDK/Optional的实战用法.md)
+
+​			[Java8LocalDate](其他/JDK/Java8LocalDate.md)
 
 ### 	JVM
 
