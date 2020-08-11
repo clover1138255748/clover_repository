@@ -65,9 +65,9 @@
 
 ​			[SpringCloud-Zuul过滤器介绍及使用](常用框架/SpringCloud/SpringCloudZuul过滤器介绍及使用.md)
 
-### 	Dobbo
+### 	Dubbo
 
-​			[Dubbo底层原理](常用框架/Dobbo/Dubbo底层原理.md)
+​			[Dubbo底层原理](常用框架/Dubbo/Dubbo底层原理.md)
 
 ### 	Spring
 
