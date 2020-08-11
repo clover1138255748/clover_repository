@@ -59,3 +59,5 @@ es就会给你返回：java真好玩儿啊，java好难学啊
 3）query phase：每个shard将自己的搜索结果（其实就是一些doc id），返回给协调节点，由协调节点进行数据的合并、排序、分页等操作，产出最终结果
 
 4）fetch phase：接着由协调节点，根据doc id去各个节点上拉取实际的document数据，最终返回给客户端
+
+![01_es读写底层原理剖析](https://gitee.com/cdx_dayshow/picBed/raw/master/img/01_es读写底层原理剖析.png)
